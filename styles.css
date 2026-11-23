@@ -226,14 +226,7 @@ p { margin: 0 0 1em; }
 
 /* ---- Equipo y valores ---- */
 .member { text-align: center; }
-.photo {
-  aspect-ratio: 2 / 1; border-radius: 10px;
-  background: linear-gradient(135deg, #e1e5ec, #d3d9e3);
-  display: grid; place-items: center;
-  font-size: 2rem; font-weight: 800; color: var(--navy); opacity: .85;
-  margin-bottom: 1.25rem;
-}
-.member h3 { margin-bottom: .2rem; }
+.member h3 { margin: 0; }
 .values { margin-top: 1.5rem; }
 
 /* ---- FAQ ---- */
